@@ -4,8 +4,8 @@ I am building a hands-on cybersecurity lab using **Kali Linux and Oracle Virtual
  Project Objectives
 - Set up Kali Linux as a penetration-testing machine.
 - Configure a dedicated VirtualBox NAT Network.
-- Configure the `10.0.0.0/24` subnet.
-- Assign Kali Linux the IP address `10.0.0.2/24`.
+- Configure the `10.X.X.X/XX`` subnet.
+- Assign Kali Linux the IP address `10.X.X.X/XX`.
 - Verify internet connectivity.
 - Practice network scanning with Nmap.
 - Configure shared folders, clipboard, and drag-and-drop.
@@ -19,8 +19,8 @@ I am building a hands-on cybersecurity lab using **Kali Linux and Oracle Virtual
 - NAT Network
 ## 🔬 Initial Lab Results
 - Verified Kali Linux network interface using `ip -4 addr`.
-- Confirmed internet connectivity using `ping -c 4 8.8.8.8`.
-- Performed an initial localhost scan using `nmap 127.0.0.1`.
+- Confirmed internet connectivity using `ping -c 4 8.X.X.X`.
+- Performed an initial localhost scan using `nmap 127.X.X.x`.
 - Observed that the 1,000 scanned TCP ports were closed.
 **Note:** The dedicated NAT Network and static IP configuration are still being completed.
 # What I Am Learning
